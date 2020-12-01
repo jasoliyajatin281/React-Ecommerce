@@ -12,7 +12,7 @@ const config = {
   appId: "1:331629271411:web:023d58016801485e7b0d06",
   measurementId: "G-KR0L2R5881",
 };
-
+firebase.initializeApp(config);
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
@@ -37,7 +37,6 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 };
 
-firebase.initializeApp(config);
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
