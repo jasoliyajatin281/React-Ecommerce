@@ -16,6 +16,6 @@ export const selectCollectionPreview = createSelector(
 // Find collection.id matching the url parameter of our collection id map
 export const selectCollection = (collectionUrlParam) =>
   createSelector(
-    [selectCollection],
+    [selectCollections],
     (collections) => collections[collectionUrlParam]
   );
