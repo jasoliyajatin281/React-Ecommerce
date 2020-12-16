@@ -8,7 +8,6 @@ import rootReducer from "./root-reducer";
 
 // Removing redux-logger from production build
 const middlewares = [];
-
 if (process.env.NODE_ENV === "development") {
   middlewares.push(logger);
 }
