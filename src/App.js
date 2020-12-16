@@ -7,9 +7,14 @@ import SignInAndSignUpPage from "./components/pages/sign-in-and-sign-up/sign-in-
 import ShopPage from "./components/pages/shop/shop.component";
 import Header from "./components/header/header.component";
 import CheckoutPage from "./components/pages/checkout/checkout.component";
-import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
+import {
+  auth,
+  createUserProfileDocument,
+} from "./redux/firebase/firebase.utils";
+
 import { setCurrentUser } from "./redux/user/user.action";
 import { selectCurrentUser } from "./redux/user/user.selectors";
+
 import "./App.css";
 
 class App extends React.Component {
