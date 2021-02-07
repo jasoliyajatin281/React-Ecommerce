@@ -8,7 +8,7 @@ Jatin Jasoliya
 
 # Demo
 
-The app is deployed using Firebase at https://netflic-clone-master.web.app
+The app is deployed using Firebase at https://sai-fashion-3a649.web.app/
 
 ## Available Scripts
 
